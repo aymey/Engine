@@ -1,7 +1,7 @@
 #include <iostream>
 #include <SDL2/SDL.h>
 
-#include "config.h"
+#include "../config.h.in"
 #include "client/client.hpp"
 
 void shutdown(void) {
